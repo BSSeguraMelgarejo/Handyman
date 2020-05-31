@@ -1,0 +1,8 @@
+.header{
+	padding: 2em 0;
+	position: fixed;
+}
+
+#logo{
+	max-width: 8em;
+}
