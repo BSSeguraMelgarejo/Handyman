@@ -2,6 +2,9 @@
 	position: inherit;
 }
 
+.container-fluid{
+	background-color: #ff8c25;
+}
 
 #imgRemote{
 	max-height: 80vh;
