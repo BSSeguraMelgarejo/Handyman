@@ -1,0 +1,11 @@
+.container-fluid{
+height: 100vh;
+padding: 10em 5em;
+background-image: url("../../assets/img/herramientas.png");
+background-color: #015093;
+background-size:6em;
+}
+
+.imgWelcome{
+max-width: 60%;
+}
