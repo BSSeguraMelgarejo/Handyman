@@ -2,12 +2,29 @@
 	position: inherit;
 }
 
-.container-fluid{
+.generalContainer{
 	background-color: #ff8c25;
+	padding: 10em 5em 2em 5em;
 }
 
 #imgRemote{
 	max-height: 80vh;
+}
+
+#servRemote{
+	font-family: 'Cabin', sans-serif;
+	/*font-family: 'El Messiri', sans-serif;*/
+	font-size: 3em;
+	color: white;
+	line-height : 1em;
+	text-align: center;
+	text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 992px) {
+  .generalContainer{
+	padding: 10em 5em 2em 5em;
+	}	
 }
 
 @media (max-width: 768px) {
@@ -20,4 +37,33 @@
   #imgRemote{
 	max-height: 40vh;
 }
+}
+
+#callUs{
+	color: #015093;
+	font-family: 'Cabin', sans-serif;
+	/*font-family: 'El Messiri', sans-serif;*/
+	font-size: 2em;
+	color: white;
+	line-height : 1em;
+	text-align: center;
+	text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+}
+#callUs{
+	color: #015093;
+		font-size: 3em;
+	}
+
+#call{
+	margin: 0;
+	padding: 2em;
+	background-color: #ffbc00;
+}
+
+.auxContainer{
+	padding: 0;
+}
+
+#number{
+	font-weight: bolder;
 }

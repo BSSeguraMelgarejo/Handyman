@@ -17,7 +17,7 @@ export class ServicesComponent implements OnInit {
           $("#painting").on({
 	  			click:function(){
 	  			var address = "/././assets/img/pinturaGrande.png";
-	  			$("#principalText").text("Brindamos el mejor servicio de pintura y enchapado para interiores y exteriores en todo tipo de construcción");
+	  			$("#principalText").text("Brindamos el mejor servicio de pintura y enchapado para interiores y exteriores en todo tipo de construcciones");
 	  			$('.text').css('background-image', 'url(' + address + ')');
 	  			}
 

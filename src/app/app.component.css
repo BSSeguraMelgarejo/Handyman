@@ -1,13 +1,30 @@
+#slogan{
+	font-family: 'Cabin', sans-serif;
+	/*font-family: 'El Messiri', sans-serif;*/
+	font-size: 1.4em;
+	margin: 0;
+}
+
 .header{
-	padding: 2em 0;
+	padding: 2em 2em;
 	/*position: -webkit-sticky;
   position: sticky;*/
   position:fixed;
 	background-color: #015093db;
 	top: 0;
 	border-bottom: solid #ffffff6e 0.3em;
+	color: white;
 }
 
 #logo{
 	max-width: 8em;
+}
+
+#company{
+	font-size: 1.6em;
+	color: #ffbc00;
+}
+
+#miLogo{
+	border-right: solid #ffffff6e 0.3em;
 }
