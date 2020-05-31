@@ -2,19 +2,24 @@
 	position: inherit;
 }
 
-
-#imgRemote{
+#imgComunicate{
+	-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+-ms-filter: "FlipH";
+filter: FlipH;
 	max-height: 80vh;
 }
 
 @media (max-width: 768px) {
-  #imgRemote{
+  #imgComunicate{
 	max-height: 60vh;
 }	
 }
 
 @media (max-width: 576px) {
-  #imgRemote{
+  #imgComunicate{
 	max-height: 40vh;
 }
 }

@@ -12,7 +12,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { RemoteComponent } from './remote/remote.component'
+import { RemoteComponent } from './remote/remote.component';
+import { ContactComponent } from './contact/contact.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RemoteComponent } from './remote/remote.component'
     WelcomeComponent,
     ServicesComponent,
     MainNavComponent,
-    RemoteComponent
+    RemoteComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

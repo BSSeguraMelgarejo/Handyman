@@ -14,13 +14,10 @@ export class ServicesComponent implements OnInit {
   ngOnInit(){
   	$(document).ready(function(){
     //on click in a miniature image
-    	//$('myObject').css('background-image', 'url(' + imageUrl + ')');
           $("#painting").on({
 	  			click:function(){
-	  			//alert("hola");
 	  			var address = "/././assets/img/pinturaGrande.png";
 	  			$("#principalText").text("Brindamos el mejor servicio de pintura y enchapado para interiores y exteriores en todo tipo de construcción");
-	  			/*$(".text").animate({background-image: "url('/././assets/img/pinturaGrande.png');"},1000);*/
 	  			$('.text').css('background-image', 'url(' + address + ')');
 	  			}
 
@@ -30,9 +27,9 @@ export class ServicesComponent implements OnInit {
           $("#plumbing").on({
 	  			click:function(){
 	  				var address = "/././assets/img/plomeriaGrande.png";
-	  			//alert("hola");
+	  			
 	  			$("#principalText").text("Construimos canales y reparamos tuberías viejas. ¡Quedarán como nuevas! Hacemos arreglos de primera calidad");
-	  			//$(".text").animate({background-image: "url("+direccion+")"},1000);
+	  			
 	  			$('.text').css('background-image', 'url(' + address + ')');
 	  			}
 
@@ -42,9 +39,9 @@ export class ServicesComponent implements OnInit {
           $("#electricity").on({
 	  			click:function(){
 	  				var address = "/././assets/img/electricidadGrande.png";
-	  			//alert("hola");
+	  			
 	  			$("#principalText").text("Reparamos tus electrodomésticos y dejamos las instalaciones eléctricas de tu casa en las mejores condiciones");
-	  			//$(".text").animate({background-image: "url("+direccion+")"},1000);
+	  			
 	  			$('.text').css('background-image', 'url(' + address + ')');
 	  			}
 
@@ -54,9 +51,9 @@ export class ServicesComponent implements OnInit {
           $("#carpentry").on({
 	  			click:function(){
 	  				var address = "/././assets/img/carpinteriaGrande.png";
-	  			//alert("hola");
+	  			
 	  			$("#principalText").text("Ofrecemos el mejor trabajo para la reparación y remodelación de muebles de todo el hogar y la oficina");
-	  			//$(".text").animate({background-image: "url("+direccion+")"},1000);
+	  			
 	  			$('.text').css('background-image', 'url(' + address + ')');
 	  			}
 
