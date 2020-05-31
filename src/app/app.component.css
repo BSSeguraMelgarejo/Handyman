@@ -1,7 +1,11 @@
 .header{
 	padding: 2em 0;
-	position: fixed;
-	background-color: #015093;
+	/*position: -webkit-sticky;
+  position: sticky;*/
+  position:fixed;
+	background-color: #015093db;
+	top: 0;
+	border-bottom: solid #ffffff6e 0.3em;
 }
 
 #logo{
