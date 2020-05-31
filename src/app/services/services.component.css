@@ -41,7 +41,7 @@
 .wrapper {
   height:30em;
   /*relative position*/
-  position: relative;
+  position: inherit;
   width: 30em;
 }
 
@@ -50,7 +50,7 @@
   .wrapper {
   height:26em;
   /*relative position*/
-  position: relative;
+  position: inherit;
   width: 26em;
 	}	
 }
@@ -59,7 +59,7 @@
   .wrapper {
   height:20em;
   /*relative position*/
-  position: relative;
+  position: inherit;
   width: 20em;
 	}
 }
@@ -83,7 +83,7 @@
 .text {
   color: white;
   /*relative position*/
-  position: relative;
+  position: inherit;
   margin: 0;
 }
 

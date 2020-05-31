@@ -11,14 +11,16 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from '@angular/material/list'
+import { MatListModule } from '@angular/material/list';
+import { RemoteComponent } from './remote/remote.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     ServicesComponent,
-    MainNavComponent
+    MainNavComponent,
+    RemoteComponent
   ],
   imports: [
     BrowserModule,
